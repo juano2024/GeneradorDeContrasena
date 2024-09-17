@@ -24,7 +24,7 @@ function generar() {
     
   }
   contrasena.value = password;
-  //se llama a la funcion en esta linea
+  //se llama a la funcion para validar en esta linea
   validarContrasena();
 }
 
@@ -56,33 +56,3 @@ function validarContrasena(){
     }
 
 }
-
-
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//APUNTES 
-
-//SOBRE EL FOR
-//los bucles for usan 3 parametros inicializador, condicion y el contador
-//en los () se pone la condicion que se quiere que se cumpla 
-//en el bucle for.
-//en este caso se dice que i se inicia en 0 indicando que inicia en A
-//luego se dice hasta cuando se va realizar el bucle por eso i < numeroDigitado
-//finalmente se cierra con un contador
-
-//SOBRE EL CONSOLE.LOG()
-//el sintaxis console.log() sirve mucho para verificar si se ha creado una variable
-//o para probar un codigo
-
-//typeof es un metodo nativo de js
-//el metodo typeof me dice que tipo de dato esta recibiendo el compilador
-
-//let texto = "texto";
-//console.log(typeof texto);
-
-//SOBRE EL MATH.RANDOM Y MATH.FLOOR
-//Math.random es una funcion por eso se pone ()
-//Math.floor redondea todos los valores
-
-//SOBRE PARSEINT
-//parseInt convierte todo lo que sea un numero a un string tambien es una funcion en este caso
-//va convertir el valor de cantidad el cual es un numero a un string
